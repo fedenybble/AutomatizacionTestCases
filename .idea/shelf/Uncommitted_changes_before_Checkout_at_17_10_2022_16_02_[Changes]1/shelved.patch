@@ -1,0 +1,201 @@
+Index: .idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml b/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml	
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.1">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.1/6538b88eb8bf8811bc7b6efb5246f835c15e0bfe/junit-jupiter-api-5.8.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.1/a3e13f34a2a47fb2c0d7385c5e6e0e8623194061/junit-jupiter-api-5.8.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml b/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml	
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: org.apiguardian:apiguardian-api:1.1.2">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/e0787a997746ac32639e0bf3cb27af8dce8a3428/apiguardian-api-1.1.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/modules/AutomatizacionTestCases.test.iml
+===================================================================
+diff --git a/.idea/modules/AutomatizacionTestCases.test.iml b/.idea/modules/AutomatizacionTestCases.test.iml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/modules/AutomatizacionTestCases.test.iml	
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.linked.project.id="AutomatizacionTestCases:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="org.example" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <output-test url="file://$MODULE_DIR$/../../build/classes/java/test" />
++    <exclude-output />
++    <content url="file://$MODULE_DIR$/../../src/test">
++      <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="module" module-name="AutomatizacionTestCases.main" />
++    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.1" level="project" />
++    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.8.1" level="project" />
++    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
++    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
++  </component>
++  <component name="TestModuleProperties" production-module="AutomatizacionTestCases.main" />
++</module>
+\ No newline at end of file
+Index: .idea/modules/AutomatizacionTestCases.main.iml
+===================================================================
+diff --git a/.idea/modules/AutomatizacionTestCases.main.iml b/.idea/modules/AutomatizacionTestCases.main.iml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/modules/AutomatizacionTestCases.main.iml	
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.linked.project.id="AutomatizacionTestCases:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="org.example" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <output url="file://$MODULE_DIR$/../../build/classes/java/main" />
++    <exclude-output />
++    <content url="file://$MODULE_DIR$/../../src/main">
++      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/AutomatizacionTestCases.iml
+===================================================================
+diff --git a/.idea/AutomatizacionTestCases.iml b/.idea/AutomatizacionTestCases.iml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/AutomatizacionTestCases.iml	
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.linked.project.id="AutomatizacionTestCases" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="org.example" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
++      <excludeFolder url="file://$MODULE_DIR$/build" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/modules.xml	
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/AutomatizacionTestCases.iml" filepath="$PROJECT_DIR$/.idea/AutomatizacionTestCases.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutomatizacionTestCases.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AutomatizacionTestCases.main.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutomatizacionTestCases.test.iml" filepath="$PROJECT_DIR$/.idea/modules/AutomatizacionTestCases.test.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml b/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml	
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: org.opentest4j:opentest4j:1.2.0">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml b/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml	
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.8.1">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.8.1/21b86e08aae2720bbf017703669948be96d1388c/junit-jupiter-engine-5.8.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.8.1/ea87fe3d752e24397f71f347872e79a89c61a704/junit-jupiter-engine-5.8.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml b/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml	
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: org.junit.platform:junit-platform-engine:1.8.1">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.8.1/e6c63bf990dc88a6527b4ed617b23e47048f07e0/junit-platform-engine-1.8.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.8.1/9d87ea7959823714ad803aa91e0618bf2213b52c/junit-platform-engine-1.8.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml b/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml	
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: org.junit.platform:junit-platform-commons:1.8.1">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.1/1e362cbe6d0f225b066757865e233972557484/junit-platform-commons-1.8.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.1/386b61876dd33d0ef0381189d3c1db9455d99659/junit-platform-commons-1.8.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
