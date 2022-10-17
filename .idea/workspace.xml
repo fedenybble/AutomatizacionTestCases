@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f88108b-eded-40ed-973a-61ed34f64e8e" name="Changes" comment="UPDATE --&gt; adding Selenium dependencies (implementation 4.5.0)">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_10_2022_16_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_10_2022_16_00__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_10_2022_16_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_10_2022_16_02__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_10_2022_16_02__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_10_2022_16_02__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/noCRM_testCases/Team1_TCs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/noCRM_testCases/Team1_TCs.java" afterDir="false" />
+    <list default="true" id="4f88108b-eded-40ed-973a-61ed34f64e8e" name="Changes" comment="ADD --&gt; Setup method &amp; Test method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +124,14 @@
       <updated>1666033016208</updated>
       <workItem from="1666033018624" duration="423000" />
     </task>
+    <task id="LOCAL-00001" summary="ADD --&gt; Setup method &amp; Test method">
+      <created>1666037228509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666037228509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UPDATE --&gt; adding Selenium dependencies (implementation 4.5.0)" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE --&gt; adding Selenium dependencies (implementation 4.5.0)" />
+    <MESSAGE value="ADD --&gt; Setup method &amp; Test method" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD --&gt; Setup method &amp; Test method" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 package noCRM_testCases;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
@@ -28,6 +29,13 @@ public class Team1_TCs
             driver.get("https://todo.ly/");
         }
     }
+
+    @AfterEach
+    public void cleanup()
+    {
+        driver.quit();
+    }
+
     @Test
     public void test()
     {
