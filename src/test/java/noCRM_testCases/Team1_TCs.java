@@ -21,12 +21,12 @@ public class Team1_TCs
         {
             System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
             driver = new ChromeDriver();
-            driver.get("https://todo.ly/");
+            driver.get("https://nybble-group.nocrm.io/login");
         }else
         {
             System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
             driver = new ChromeDriver();
-            driver.get("https://todo.ly/");
+            driver.get("https://nybble-group.nocrm.io/login");
         }
     }
 
@@ -36,9 +36,9 @@ public class Team1_TCs
         driver.quit();
     }
 
-    @Test
-    public void test()
-    {
-        System.out.println("no rompe");
-    }
+//    @Test
+//    public void test()
+//    {
+//        System.out.println("no rompe");
+//    }
 }
